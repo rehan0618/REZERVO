@@ -79,6 +79,19 @@ This invariant is protected through application logic, PostgreSQL transactions, 
                              Fastify API
 ```
 
+---
+
+## 🖼️ System Architecture
+
+### Complete System Architecture
+
+![REZERVO System Architecture](docs/architecture/rezervo-system-architecture.png)
+
+### Booking Concurrency & Payment Flow
+
+![REZERVO Booking Concurrency Flow](docs/architecture/rezervo-booking-concurrency-flow.png)
+
+
 The architecture separates the web application, API, database, cache/queue layer, background processing, and payment integration.
 
 ---
